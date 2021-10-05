@@ -6,6 +6,12 @@ Functions for dummy data generation and handling are located in utils.js.<br>
 Functions for api requests are located in cypress/requests.js.<br>
 Files contained in the /cypress/pages directory represent specific pages or page elements to<br>
 fascilitate POM style testing. Among these pages are:<br>
-- homepage.js (first visited page, needed for authentication)
-- global.js (elements present across multiple pages)
--  
+- homepage.js (for authentication needed for authentication)
+- global.js (for working with elements present across multiple pages)
+- customers.js (for working with the list of customers)
+- items.js (for working with the list of available products)
+- sales.js (for working with the list of available sales orders)
+- address.js (for interacting with address form)
+- item.js (for interacting with product creation form)
+- order.js (for interacting with sales order form)
+- customer.js (for interacting with customer data form)
