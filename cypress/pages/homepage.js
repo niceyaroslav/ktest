@@ -4,7 +4,6 @@ const email = Cypress.env("EMAIL")
 const password = Cypress.env("PASSWORD")
 const login = `${url}/login`
 
-
 class homepage {
     elements = {
         emailInput: () => cy.get('[name=email]'),

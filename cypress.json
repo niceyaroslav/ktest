@@ -1,12 +1,12 @@
-{   
-    "defaultCommandTimeout": 30000,
-    "env": {
-        "PASSWORD":"YasorLove1710",
-        "EMAIL":"jmarhivka@yahoo.com",
-        "URI": "https://katanamrp.com",
-        "SALES": "https://factory.katanamrp.com/sales",
-        "KEY": "69fe6b0d-5612-4712-a516-80a52fa55ff1",
-        "CUSTOMERS": "https://api.katanamrp.com/v1/customers",
-        "projectId": "utkz5y"
-    }
+{
+  "defaultCommandTimeout": 30000,
+  "env": {
+    "PASSWORD": "",
+    "EMAIL": "jmarhivka@yahoo.com",
+    "URI": "https://katanamrp.com",
+    "SALES": "https://factory.katanamrp.com/sales",
+    "KEY": "69fe6b0d-5612-4712-a516-80a52fa55ff1",
+    "CUSTOMERS": "https://api.katanamrp.com/v1/customers"
+  },
+  "projectId": "utkz5y"
 }
