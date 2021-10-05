@@ -3,6 +3,8 @@ To run in headless mode use npm test<br>
 To run using Cypress dashboard use npm run cypress
 <br>
 Functions for dummy data generation and handling are located in utils.js.<br>
+I am using faker package to generate data. If tests require usage of available customer (contact)<br>
+or product I first go through respective page and randomly select one as an input parameter for test function.<br>
 Functions for api requests are located in cypress/requests.js.<br>
 Files contained in the /cypress/pages directory represent specific pages or page elements to<br>
 fascilitate POM style testing. Among these pages are:<br>
