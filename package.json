@@ -1,0 +1,24 @@
+{
+  "name": "ktest",
+  "version": "1.0.0",
+  "description": "cypress automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --headless",
+    "cypress": "./node_modules/.bin/cypress open"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "JM",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^8.4.1",
+    "dotenv": "^10.0.0",
+    "http-server": "^13.0.2",
+    "start-server-and-test": "^1.14.0"
+  },
+  "dependencies": {
+    "faker": "^5.5.3"
+  }
+}
