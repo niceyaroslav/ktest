@@ -15,11 +15,10 @@ fascilitate POM style testing. Among these pages are:<br>
 - item.js (for interacting with product creation form)
 - order.js (for interacting with sales order form)
 - customer.js (for interacting with customer data form)
-
+----------------
 <br>
-<br>
-Cypress integration test are located in cypress/integration/ and are denoted as '_.spec.js'<br>
-- api.spec.js - testing customer creation using api calls
-- customer-creation.spec.js - testing customer creation using UI
-- customer-update.spec.js - testing changing customer addresses in sales orders using UI
-- order-creation.spec.js - testing order creation with available customers using UI
+Cypress integration test are located in cypress/integration/ and are ending with .spec.js:<br>
+- api.spec.js, testing customer creation using api calls<br>
+- customer-creation.spec.js, testing customer creation using UI<br>
+- customer-update.spec.js, testing changing customer addresses in sales orders using UI<br>
+- order-creation.spec.js, testing order creation with available customers using UI<br>
